@@ -2,6 +2,7 @@ EXEC SelectAllUsersbyname @fname = "homa"; /*find all user with first name =homa
 
 exec selectmealsbyprice 9000 ; /*find all meals with price 9000*/
 
+exec Getusername 303;
 
 /*exec Insertplacerecord   617 ,aghajoon , resturant ;*/
 

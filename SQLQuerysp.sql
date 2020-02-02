@@ -7,8 +7,21 @@ GO;
 
 CREATE PROCEDURE SelectAllUsersbyname @fname nvarchar(255)
 AS
+begin
 SELECT * FROM users WHERE fname = @fname
+end
+go;
 
+Create  PROCEDURE Getusername(
+
+@userid INT                   --Input parameter ,  Studentid of the student 
+
+)
+AS
+BEGIN
+SELECT fname+' '+lname FROM users WHERE userid=@userid 
+END 
+go; 
 
 
 create procedure selectmealsbyprice(
@@ -16,6 +29,7 @@ create procedure selectmealsbyprice(
 as
 select * from meal where mealprice = @mealprice;
 go; 
+
 
 
 Create Procedure Insertplacerecord  /*insert value to the place table */
@@ -29,12 +43,12 @@ As
    Insert into place (placeid, placename, typep)
    Values(@placeid, @placename,@typep)
  End
- 
+ go;
+	
+	
+   
 
-
- 
-
-   SET ANSI_NULLS ON  
+	  SET ANSI_NULLS ON  
     GO  
     SET QUOTED_IDENTIFIER ON  
     GO  
@@ -51,9 +65,8 @@ As
         Where userid = @userid
     END  
     GO  
-	
-	
-    SET ANSI_NULLS ON  
+
+	 SET ANSI_NULLS ON  
     GO  
     SET QUOTED_IDENTIFIER ON  
     GO  
