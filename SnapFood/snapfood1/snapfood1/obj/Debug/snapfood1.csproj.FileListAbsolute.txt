@@ -1,0 +1,9 @@
+F:\SnapFood\snapfood1\snapfood1\bin\Debug\snapfood1.exe.config
+F:\SnapFood\snapfood1\snapfood1\bin\Debug\snapfood1.exe
+F:\SnapFood\snapfood1\snapfood1\bin\Debug\snapfood1.pdb
+F:\SnapFood\snapfood1\snapfood1\obj\Debug\snapfood1.csprojResolveAssemblyReference.cache
+F:\SnapFood\snapfood1\snapfood1\obj\Debug\snapfood1.Form1.resources
+F:\SnapFood\snapfood1\snapfood1\obj\Debug\snapfood1.Properties.Resources.resources
+F:\SnapFood\snapfood1\snapfood1\obj\Debug\snapfood1.csproj.GenerateResource.Cache
+F:\SnapFood\snapfood1\snapfood1\obj\Debug\snapfood1.exe
+F:\SnapFood\snapfood1\snapfood1\obj\Debug\snapfood1.pdb
